@@ -7,7 +7,7 @@ async function main() {
 	const { FreeDictionaryApi } = require("./free_dictionary_api.js")
 	const freeDictionaryApi = new FreeDictionaryApi()
 	const wordDefinitions = await freeDictionaryApi.getWordDefinitions("word")
-  console.log(wordDefinitions)
+  	console.log(wordDefinitions)
 }
 
 main()
